@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 //type ListNode struct {
 //	Val  int
 //	Next *ListNode
@@ -57,24 +55,25 @@ func getLength(l *ListNode) int {
 	}
 }
 
-func main() {
-	l1 := &ListNode{
-		1,
-		nil,
-		//&ListNode{
-		//	4,
-		//	&ListNode{3, nil},
-		//},
-	}
-	l2 := &ListNode{
-		9,
-		&ListNode{
-			9,
-			nil,
-			//&ListNode{4, nil},
-		},
-	}
-
-	ret := addTwoNumbers(l1, l2)
-	fmt.Println("%v", ret)
-}
+//
+//func main() {
+//	l1 := &ListNode{
+//		1,
+//		nil,
+//		//&ListNode{
+//		//	4,
+//		//	&ListNode{3, nil},
+//		//},
+//	}
+//	l2 := &ListNode{
+//		9,
+//		&ListNode{
+//			9,
+//			nil,
+//			//&ListNode{4, nil},
+//		},
+//	}
+//
+//	ret := addTwoNumbers(l1, l2)
+//	fmt.Println("%v", ret)
+//}

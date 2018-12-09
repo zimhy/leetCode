@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -52,26 +50,26 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	return l
 }
 
-func main() {
-	l1 := &ListNode{
-		Val: 1,
-		Next: &ListNode{
-			Val: 2,
-			Next: &ListNode{
-				Val: 4,
-			},
-		},
-	}
-
-	l2 := &ListNode{
-		Val: 1,
-		Next: &ListNode{
-			Val: 3,
-			Next: &ListNode{
-				Val: 4,
-			},
-		},
-	}
-	l := mergeTwoLists(l1, l2)
-	fmt.Println(l)
-}
+//func main() {
+//	l1 := &ListNode{
+//		Val: 1,
+//		Next: &ListNode{
+//			Val: 2,
+//			Next: &ListNode{
+//				Val: 4,
+//			},
+//		},
+//	}
+//
+//	l2 := &ListNode{
+//		Val: 1,
+//		Next: &ListNode{
+//			Val: 3,
+//			Next: &ListNode{
+//				Val: 4,
+//			},
+//		},
+//	}
+//	l := mergeTwoLists(l1, l2)
+//	fmt.Println(l)
+//}
