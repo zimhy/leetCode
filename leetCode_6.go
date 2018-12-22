@@ -28,10 +28,10 @@ func convert(s string, numRows int) string {
 
 	var result []rune
 	/*
-		PAYP
-	    ALIS
-	    HIRI
-	    NG
+			PAYP
+		    ALIS
+		    HIRI
+		    NG
 	*/
 	for col := 0; col <= numRows-1; col++ {
 		//fmt.Println("---------------------")
@@ -43,11 +43,11 @@ func convert(s string, numRows int) string {
 				}
 			} else {
 				if len(splitedRunes[line]) > col {
-					//fmt.Println(line, col)
+					fmt.Println(line, col)
 					result = append(result, splitedRunes[line][col])
 				}
 				if len(splitedRunes[line]) > 2*(numRows-1)-col {
-					//fmt.Println(line, 2*(numRows-1)-col-1)
+					fmt.Println(line, 2*(numRows-1)-col)
 					result = append(result, splitedRunes[line][2*(numRows-1)-col])
 				}
 			}
