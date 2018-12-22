@@ -1,92 +1,99 @@
 package main
 
+import (
+	"fmt"
+)
+
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	//TODO
 	//[1,2,3,4,5,6,7,8,9,10]
 	//[2,7,8,9]
+
+	if len(nums1) == 0 {
+		return findMid(nums2)
+	}
+	if len(nums2) == 0 {
+		return findMid(nums1)
+	}
 	if (len(nums1)+len(nums2))%2 == 0 {
-		total := findTotalOrded(nums1, nums2, (len(nums1)+len(nums2))/2) +
-			findTotalOrded(nums1, nums2, (len(nums1)+len(nums2))/2+1)
+		total := findTotalOrded(nums1, nums2, (len(nums1)+len(nums2))/2, 0, 0) +
+			findTotalOrded(nums1, nums2, (len(nums1)+len(nums2))/2-1, 0, 0)
 		return float64(total) / 2
 	} else {
-		mid := findTotalOrded(nums1, nums2, (len(nums1)+len(nums2))/2+1)
+		mid := findTotalOrded(nums1, nums2, (len(nums1)+len(nums2))/2, 0, 0)
 		return float64(mid)
 	}
 	return 0
 }
-
-//[1,2,2,3,4,5,6,7,7,8,8,9,9,10]
-//order 从0 开始
-func findTotalOrded(nums1 []int, nums2 []int, order int) int {
-	if len(nums1) == 0 {
-		return nums2[order]
-	}
-	if len(nums2) == 0 {
-		return nums2[order]
-	}
-
-	mid1 := nums1[len(nums1)/2]
-	mid2 := nums2[len(nums2)/2]
-	if mid1 == mid2 {
-		if order == len(nums2)/2+len(nums1)/2 {
-			return mid1
-		} else if order > len(nums2)/2+len(nums1)/2 {
-			return findTotalOrded(nums1[len(nums1)/2:], nums2[len(nums2)/2:], (order - len(nums1)/2 - len(nums2)/2))
-		} else {
-			return findTotalOrded(nums1[0:len(nums1)/2], nums2[0:len(nums2)/2], (order - len(nums1)/2 - len(nums2)/2))
-		}
+func findMid(nums []int) float64 {
+	if len(nums)%2 == 0 {
+		return (float64(nums[len(nums)/2]) + float64(nums[len(nums)/2-1])) / 2
 	} else {
-		if mid1 > mid2 {
-			mid := mid2
-			mid2 = mid1
-			mid1 = mid
-			nums := nums1
-			nums1 = nums2
-			nums2 = nums
-		}
-		mid1InN2Less := findIndex(nums2, mid1, 0, len(nums2)-1)
-		mid2InN1Less := findIndex(nums1, mid2, 0, len(nums1)-1)
-
-		mid1AllIndex := mid1InN2Less + len(nums1)/2
-		mid2AllIndex := mid2InN1Less + len(nums2)/2
-
-		if order > mid2AllIndex {
-			return findTotalOrded(nums1[mid2InN1Less:], nums2[len(nums2)/2:], (order - mid2InN1Less - len(nums2)))
-		} else if order < mid1AllIndex {
-			return findTotalOrded(nums1[:len(nums1)/2], nums2[:mid1InN2Less], order)
-		}
-		if order > mid1AllIndex && order < mid2AllIndex {
-			return findTotalOrded(nums1[len(nums1)/2:], nums2[mid1InN2Less:], order-len(nums1)/2)
-		}
-
+		return float64(nums[len(nums)/2])
 	}
-	return mid1
 }
+func findTotalOrded(nums1 []int, nums2 []int, order int, start1 int, start2 int) int {
 
-func findIndex(nums []int, num int, start int, end int) (lessIndex int) {
-	mid := (start + end) / 2
-	if nums[mid] == num {
-		return mid
-	} else if nums[mid] > num {
-		if mid == 0 {
-			return 0
-		} else if nums[mid-1] < num {
-			return mid
+	if start1 >= len(nums1) {
+		return nums2[start2+order-1]
+	}
+	if start2 >= len(nums2) {
+		return nums1[start1+order-1]
+	}
+	if order == 0 {
+		if nums2[start2] > nums1[start1] {
+			return nums1[start1]
 		} else {
-			return findIndex(nums, num, start, mid-1)
-		}
-	} else if nums[mid] < num {
-		if mid == len(nums)-1 {
-			return len(nums)
-		} else if nums[mid+1] > num {
-			return mid + 1
-		} else {
-			return findIndex(nums, num, mid+1, end)
+			return nums2[start2]
 		}
 	}
-	return mid
+	if order == 1 {
+		num1 := nums1[start1]
+		num2 := nums2[start2]
+		if num1 < num2 {
+			if len(nums1)-1 > start1 {
+				if nums1[start1+1] > num2 {
+					return num2
+				} else {
+					return nums1[start1+1]
+				}
+			} else {
+				return num2
+			}
 
+		} else {
+			if len(nums2)-1 > start2 {
+				if nums2[start2+1] > num1 {
+					return num1
+				} else {
+					return nums2[start2+1]
+				}
+			} else {
+				return num1
+			}
+
+		}
+	}
+	num1, num2 := 0, 0
+
+	if len(nums1)-1 < order/2+start1 {
+		num1 = int(^uint(0) >> 1)
+	} else {
+		num1 = nums1[order/2+start1]
+	}
+	if len(nums2)-1 < order/2+start2 {
+		num2 = int(^uint(0) >> 1)
+	} else {
+		num2 = nums2[order/2+start2]
+	}
+	if num1 >= num2 {
+		return findTotalOrded(nums1, nums2, order-order/2, start1, start2+order/2)
+	} else {
+		return findTotalOrded(nums1, nums2, order-order/2, start1+order/2, start2)
+	}
 }
+
 func main() {
-	findMedianSortedArrays([]int{3, 4, 4}, []int{3, 4, 4})
+	result := findMedianSortedArrays([]int{1}, []int{2, 3, 4})
+	fmt.Println(result)
 }
