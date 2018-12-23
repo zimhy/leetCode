@@ -4,6 +4,9 @@ import (
 	"fmt"
 )
 
+/**
+tips : 思路二分不一定是要把已经存在的所有数组二分，也可以是把预期二分
+*/
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	//TODO
 	//[1,2,3,4,5,6,7,8,9,10]

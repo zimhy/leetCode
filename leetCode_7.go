@@ -5,6 +5,9 @@ import (
 	"math"
 )
 
+/**
+当运算限定在 int32 XXXX什么的时候 输入输出都要限定 但运算期间要兼容
+*/
 func reverse(x int) int {
 	if float64(x) >= math.Pow(2, float64(31)) || float64(x) < -math.Pow(2, float64(31)) {
 		return 0
