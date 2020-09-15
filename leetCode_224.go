@@ -1,7 +1,6 @@
 package main
 
 import (
-	"container/list"
 	"fmt"
 )
 
@@ -106,44 +105,44 @@ func isNumber(char rune) bool {
 	return char >= '0' && char <= '9'
 }
 
-type Stack struct {
-	list *list.List
-}
+//type Stack struct {
+//	list *list.List
+//}
+//
+//func NewStack() *Stack {
+//	list := list.New()
+//	return &Stack{list}
+//}
+//
+//func (stack *Stack) Push(value interface{}) {
+//	stack.list.PushBack(value)
+//}
+//
+//func (stack *Stack) Pop() interface{} {
+//	e := stack.list.Back()
+//	if e != nil {
+//		stack.list.Remove(e)
+//		return e.Value
+//	}
+//	return nil
+//}
+//
+//func (stack *Stack) Peak() interface{} {
+//	e := stack.list.Back()
+//	if e != nil {
+//		return e.Value
+//	}
+//
+//	return nil
+//}
 
-func NewStack() *Stack {
-	list := list.New()
-	return &Stack{list}
-}
-
-func (stack *Stack) Push(value interface{}) {
-	stack.list.PushBack(value)
-}
-
-func (stack *Stack) Pop() interface{} {
-	e := stack.list.Back()
-	if e != nil {
-		stack.list.Remove(e)
-		return e.Value
-	}
-	return nil
-}
-
-func (stack *Stack) Peak() interface{} {
-	e := stack.list.Back()
-	if e != nil {
-		return e.Value
-	}
-
-	return nil
-}
-
-func (stack *Stack) Len() int {
-	return stack.list.Len()
-}
-
-func (stack *Stack) Empty() bool {
-	return stack.list.Len() == 0
-}
+//func (stack *Stack) Len() int {
+//	return stack.list.Len()
+//}
+//
+//func (stack *Stack) Empty() bool {
+//	return stack.list.Len() == 0
+//}
 func main() {
 	//data := "2-4-(8+2-6+(8+4-(1)+8-10))"
 	data := "2+4-(8+10)"
