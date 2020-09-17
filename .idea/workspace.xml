@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e217b33-afee-423b-a829-0c7c10a86421" name="Default Changelist" comment="problem_10 动归解法">
-      <change beforePath="$PROJECT_DIR$/leetCode_295.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode_295.go" afterDir="false" />
+    <list default="true" id="0e217b33-afee-423b-a829-0c7c10a86421" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/leetCode_376.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,20 +34,6 @@
         <option value="Go File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>rune</find>
-      <find>int</find>
-      <find>make</find>
-      <find>ListNode</find>
-      <find>for</find>
-      <find>getl</find>
-      <find>getle</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
   </component>
   <component name="GOROOT" path="$PROJECT_DIR$/../../../../Go" />
   <component name="Git.Settings">
@@ -63,19 +50,23 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build leetCode_160.go ListNode.go">
+  <component name="RunManager" selected="Go Build.go build leetCode_376.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="leetCode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -105,11 +96,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build leetCode_402.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build leetCode_376.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leetCode_402.go" />
+      <filePath value="$PROJECT_DIR$/leetCode_376.go" />
       <package value="leetCode" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -143,19 +134,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build leetCode" />
-      <item itemvalue="Go Build.go build leetCode_160.go ListNode.go" />
-      <item itemvalue="Go Build.go build leetCode_402.go" />
       <item itemvalue="Go Build.go build leetCode_55.go" />
-      <item itemvalue="Go Build.go build leetCode_92.go ListNode.go" />
       <item itemvalue="Go Build.go build listNode.go" />
+      <item itemvalue="Go Build.go build leetCode_92.go ListNode.go" />
+      <item itemvalue="Go Build.go build leetCode_160.go ListNode.go" />
+      <item itemvalue="Go Build.go build leetCode_376.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build leetCode_376.go" />
         <item itemvalue="Go Build.go build leetCode_160.go ListNode.go" />
         <item itemvalue="Go Build.go build leetCode_92.go ListNode.go" />
         <item itemvalue="Go Build.go build listNode.go" />
         <item itemvalue="Go Build.go build leetCode_55.go" />
-        <item itemvalue="Go Build.go build leetCode_402.go" />
       </list>
     </recent_temporary>
   </component>
@@ -175,11 +166,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -193,17 +214,54 @@
     <MESSAGE value="problem_7,8,9" />
     <MESSAGE value="problem_7,8,9&#10;and tips" />
     <MESSAGE value="problem_10 动归解法" />
-    <option name="LAST_COMMIT_MESSAGE" value="problem_10 动归解法" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="753" y="178" key="#GOPATH" timestamp="1600319678656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="753" y="178" key="#GOPATH/0.0.1920.1040@0.0.1920.1040" timestamp="1600319678656" />
     <state x="753" y="450" key="#GOROOT" timestamp="1600317897241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="450" key="#GOROOT/0.0.1920.1040@0.0.1920.1040" timestamp="1600317897241" />
-    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600317956010">
+    <state x="93" y="93" width="1733" height="853" key="DiffContextDialog" timestamp="1600320798302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600317956010" />
+    <state x="93" y="93" width="1733" height="853" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600320798302" />
+    <state x="742" y="275" key="FileChooserDialogImpl" timestamp="1600319675243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="742" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600319675243" />
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom" timestamp="1600321778266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600321778266" />
+    <state width="1878" height="282" key="GridCell.Tab.0.center" timestamp="1600321778266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600321778266" />
+    <state width="1878" height="282" key="GridCell.Tab.0.left" timestamp="1600321778266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600321778266" />
+    <state width="1878" height="282" key="GridCell.Tab.0.right" timestamp="1600321778266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600321778266" />
+    <state x="462" y="164" key="SettingsEditor" timestamp="1600325375208">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="462" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600325375208" />
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600318289601">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600318289601" />
+    <state x="662" y="117" width="594" height="804" key="find.popup" timestamp="1600320665684">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="117" width="594" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600320665684" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -227,6 +285,11 @@
           <url>file://$PROJECT_DIR$/leetCode_160.go</url>
           <line>26</line>
           <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leetCode_376.go</url>
+          <line>59</line>
+          <option name="timeStamp" value="139" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
