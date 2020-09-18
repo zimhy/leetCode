@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e217b33-afee-423b-a829-0c7c10a86421" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/leetCode_376.go" afterDir="false" />
+    <list default="true" id="0e217b33-afee-423b-a829-0c7c10a86421" name="Default Changelist" comment="276">
+      <change afterPath="$PROJECT_DIR$/leetCode_452.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode_78.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build leetCode_376.go">
+  <component name="RunManager" selected="Go Build.go build leetCode_78.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="leetCode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -105,11 +106,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build leetCode_55.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build leetCode_452.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leetCode_55.go" />
+      <filePath value="$PROJECT_DIR$/leetCode_452.go" />
+      <package value="leetCode" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build leetCode_78.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/leetCode_78.go" />
       <package value="leetCode" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -123,30 +133,21 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build listNode.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetCode" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leetCode_92.go|$PROJECT_DIR$/ListNode.go" />
-      <package value="leetCode" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Go Build.go build leetCode" />
-      <item itemvalue="Go Build.go build leetCode_55.go" />
-      <item itemvalue="Go Build.go build listNode.go" />
       <item itemvalue="Go Build.go build leetCode_92.go ListNode.go" />
       <item itemvalue="Go Build.go build leetCode_160.go ListNode.go" />
       <item itemvalue="Go Build.go build leetCode_376.go" />
+      <item itemvalue="Go Build.go build leetCode_452.go" />
+      <item itemvalue="Go Build.go build leetCode_78.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build leetCode_78.go" />
+        <item itemvalue="Go Build.go build leetCode_452.go" />
         <item itemvalue="Go Build.go build leetCode_376.go" />
         <item itemvalue="Go Build.go build leetCode_160.go ListNode.go" />
         <item itemvalue="Go Build.go build leetCode_92.go ListNode.go" />
-        <item itemvalue="Go Build.go build listNode.go" />
-        <item itemvalue="Go Build.go build leetCode_55.go" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +216,8 @@
     <MESSAGE value="problem_7,8,9&#10;and tips" />
     <MESSAGE value="problem_10 动归解法" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="276" />
+    <option name="LAST_COMMIT_MESSAGE" value="276" />
   </component>
   <component name="WindowStateProjectService">
     <state x="753" y="178" key="#GOPATH" timestamp="1600319678656">
@@ -234,34 +236,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="742" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600319675243" />
-    <state width="1878" height="282" key="GridCell.Tab.0.bottom" timestamp="1600321778266">
+    <state width="1878" height="347" key="GridCell.Tab.0.bottom" timestamp="1600339962163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600321778266" />
-    <state width="1878" height="282" key="GridCell.Tab.0.center" timestamp="1600321778266">
+    <state width="1878" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600339962163" />
+    <state width="1878" height="347" key="GridCell.Tab.0.center" timestamp="1600339962163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600321778266" />
-    <state width="1878" height="282" key="GridCell.Tab.0.left" timestamp="1600321778266">
+    <state width="1878" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600339962163" />
+    <state width="1878" height="347" key="GridCell.Tab.0.left" timestamp="1600339962163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600321778266" />
-    <state width="1878" height="282" key="GridCell.Tab.0.right" timestamp="1600321778266">
+    <state width="1878" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600339962163" />
+    <state width="1878" height="347" key="GridCell.Tab.0.right" timestamp="1600339962163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600321778266" />
+    <state width="1878" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600339962163" />
+    <state width="1878" height="347" key="GridCell.Tab.1.bottom" timestamp="1600339962483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600339962483" />
+    <state width="1878" height="347" key="GridCell.Tab.1.center" timestamp="1600339962483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600339962483" />
+    <state width="1878" height="347" key="GridCell.Tab.1.left" timestamp="1600339962483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600339962483" />
+    <state width="1878" height="347" key="GridCell.Tab.1.right" timestamp="1600339962483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600339962483" />
     <state x="462" y="164" key="SettingsEditor" timestamp="1600325375208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="462" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600325375208" />
-    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600318289601">
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600325732505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600318289601" />
-    <state x="662" y="117" width="594" height="804" key="find.popup" timestamp="1600320665684">
+    <state x="553" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600325732505" />
+    <state x="662" y="117" width="594" height="804" key="find.popup" timestamp="1600330869384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="117" width="594" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600320665684" />
+    <state x="662" y="117" width="594" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600330869384" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -288,10 +306,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/leetCode_376.go</url>
-          <line>59</line>
+          <line>54</line>
           <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leetCode_452.go</url>
+          <line>24</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leetCode_78.go</url>
+          <line>24</line>
+          <option name="timeStamp" value="182" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="nextSubset[15]" language="go" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
