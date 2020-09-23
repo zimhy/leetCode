@@ -16,7 +16,7 @@ type (
 )
 
 // Create a new queue
-func New() *Queue {
+func NewQueue() *Queue {
 	return &Queue{nil, nil, 0}
 }
 

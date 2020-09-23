@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e217b33-afee-423b-a829-0c7c10a86421" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Queue.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetCode_114.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetCode_236.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue.go" beforeDir="false" afterPath="$PROJECT_DIR$/Queue.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetCode_199.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode_199.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,19 +75,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetCode_113.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetCode_236.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="447">
-              <caret line="76" column="29" selection-start-line="42" selection-end-line="76" selection-end-column="29" />
+              <caret line="73" column="29" selection-start-line="72" selection-start-column="44" selection-end-line="73" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -96,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leetCode_199.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="45">
+              <caret line="12" selection-start-line="12" selection-end-line="43" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -105,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetCode_114.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="313">
+              <caret line="60" column="5" lean-forward="true" selection-start-line="41" selection-end-line="60" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -114,8 +104,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Queue.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+            <state relative-caret-position="177">
+              <caret line="54" column="6" lean-forward="true" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TreeNode.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -216,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build leetCode_114.go TreeNode.go">
+  <component name="RunManager" selected="Go Build.go build leetCode_199.go TreeNode.go Queue.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="leetCode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -273,6 +272,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build leetCode_199.go TreeNode.go Queue.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/leetCode_199.go|$PROJECT_DIR$/TreeNode.go|$PROJECT_DIR$/Queue.go" />
+      <package value="leetCode" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build leetCode_315.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -282,43 +290,35 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build leetCode_40.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetCode" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leetCode_40.go" />
-      <package value="leetCode" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Go Build.go build leetCode" />
-      <item itemvalue="Go Build.go build leetCode_40.go" />
       <item itemvalue="Go Build.go build leetCode_315.go" />
       <item itemvalue="Go Build.go build leetCode_113.go TreeNode.go" />
       <item itemvalue="Go Build.go build 236.go TreeNode.go" />
       <item itemvalue="Go Build.go build leetCode_114.go TreeNode.go" />
+      <item itemvalue="Go Build.go build leetCode_199.go TreeNode.go Queue.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build leetCode_199.go TreeNode.go Queue.go" />
         <item itemvalue="Go Build.go build leetCode_114.go TreeNode.go" />
         <item itemvalue="Go Build.go build 236.go TreeNode.go" />
         <item itemvalue="Go Build.go build 236.go TreeNode.go" />
         <item itemvalue="Go Build.go build leetCode_113.go TreeNode.go" />
-        <item itemvalue="Go Build.go build leetCode_315.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -668,13 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TreeNode.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetCode_92.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="859">
@@ -749,31 +742,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Queue.go">
+    <entry file="file://$PROJECT_DIR$/leetCode_236.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        <state relative-caret-position="447">
+          <caret line="73" column="29" selection-start-line="72" selection-start-column="44" selection-end-line="73" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetCode_114.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="313">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="41" selection-end-line="60" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetCode_236.go">
+    <entry file="file://$PROJECT_DIR$/TreeNode.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="76" column="29" selection-start-line="42" selection-end-line="76" selection-end-column="29" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Queue.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="54" column="6" lean-forward="true" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetCode_199.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="45">
+          <caret line="12" selection-start-line="12" selection-end-line="43" selection-end-column="1" />
         </state>
       </provider>
     </entry>
