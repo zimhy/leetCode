@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e217b33-afee-423b-a829-0c7c10a86421" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BinarySearch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode_207.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode_33.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue.go" beforeDir="false" afterPath="$PROJECT_DIR$/Queue.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetCode_199.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode_199.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,19 +34,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetCode_332.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="70" column="24" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/Cellar/go/1.11.2/libexec/src/builtin/builtin.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="137" column="74" selection-start-line="137" selection-start-column="74" selection-end-line="137" selection-end-column="74" />
+            <state relative-caret-position="169">
+              <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -59,22 +52,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetCode_160.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="813">
-              <caret line="57" column="5" selection-start-line="49" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetCode_295.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-428" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetCode_236.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="447">
@@ -83,11 +60,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetCode_199.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="12" selection-start-line="12" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="432">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetCode_207.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BinarySearch.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetCode_33.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -96,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/leetCode_114.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="313">
-              <caret line="60" column="5" lean-forward="true" selection-start-line="41" selection-end-line="60" selection-end-column="5" />
+              <caret line="60" column="5" selection-start-line="41" selection-end-line="60" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -105,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/Queue.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
-              <caret line="54" column="6" lean-forward="true" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+              <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -153,6 +157,10 @@
         <option value="$PROJECT_DIR$/leetCode_114.go" />
         <option value="$PROJECT_DIR$/Queue.go" />
         <option value="$PROJECT_DIR$/leetCode_199.go" />
+        <option value="$PROJECT_DIR$/leetCode_207.go" />
+        <option value="$PROJECT_DIR$/binarySearch.go" />
+        <option value="$PROJECT_DIR$/leetCode_33.go" />
+        <option value="$PROJECT_DIR$/BinarySearch.go" />
       </list>
     </option>
   </component>
@@ -215,22 +223,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build leetCode_199.go TreeNode.go Queue.go">
+  <component name="RunManager" selected="Go Build.go build leetCode_33.go BinarySearch.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="leetCode" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/|$PROJECT_DIR$/leetCode_4.go|$PROJECT_DIR$/ListNode.go" />
-      <package value="leetCode" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 236.go TreeNode.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetCode" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/236.go|$PROJECT_DIR$/TreeNode.go" />
       <package value="leetCode" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -254,15 +253,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build leetCode_113.go TreeNode.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetCode" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leetCode_113.go|$PROJECT_DIR$/TreeNode.go" />
-      <package value="leetCode" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build leetCode_114.go TreeNode.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -281,30 +271,37 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build leetCode_315.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build leetCode_207.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leetCode_315.go" />
+      <filePath value="$PROJECT_DIR$/leetCode_207.go" />
+      <package value="leetCode" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build leetCode_33.go BinarySearch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/leetCode_33.go|$PROJECT_DIR$/BinarySearch.go" />
       <package value="leetCode" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Go Build.go build leetCode" />
-      <item itemvalue="Go Build.go build leetCode_315.go" />
-      <item itemvalue="Go Build.go build leetCode_113.go TreeNode.go" />
-      <item itemvalue="Go Build.go build 236.go TreeNode.go" />
       <item itemvalue="Go Build.go build leetCode_114.go TreeNode.go" />
       <item itemvalue="Go Build.go build leetCode_199.go TreeNode.go Queue.go" />
+      <item itemvalue="Go Build.go build leetCode_207.go" />
+      <item itemvalue="Go Build.go build leetCode_33.go BinarySearch.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build leetCode_33.go BinarySearch.go" />
+        <item itemvalue="Go Build.go build leetCode_207.go" />
         <item itemvalue="Go Build.go build leetCode_199.go TreeNode.go Queue.go" />
         <item itemvalue="Go Build.go build leetCode_114.go TreeNode.go" />
-        <item itemvalue="Go Build.go build 236.go TreeNode.go" />
-        <item itemvalue="Go Build.go build 236.go TreeNode.go" />
-        <item itemvalue="Go Build.go build leetCode_113.go TreeNode.go" />
       </list>
     </recent_temporary>
   </component>
@@ -317,8 +314,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -594,6 +591,30 @@
           <properties />
           <option name="timeStamp" value="226" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leetCode_207.go</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leetCode_207.go</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leetCode_33.go</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/BinarySearch.go</url>
+          <line>3</line>
+          <properties />
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -728,13 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/go/1.11.2/libexec/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="137" column="74" selection-start-line="137" selection-start-column="74" selection-end-line="137" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ListNode.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -752,7 +766,7 @@
     <entry file="file://$PROJECT_DIR$/leetCode_114.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="41" selection-end-line="60" selection-end-column="5" />
+          <caret line="60" column="5" selection-start-line="41" selection-end-line="60" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -766,14 +780,42 @@
     <entry file="file://$PROJECT_DIR$/Queue.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
-          <caret line="54" column="6" lean-forward="true" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetCode_199.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="12" selection-start-line="12" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="432">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11.2/libexec/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode_207.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinarySearch.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode_33.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
