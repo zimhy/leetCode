@@ -1,16 +1,16 @@
 package main
 
-func binarySearch(nums []int, start int, end int, target int) int {
+func binarySearch(nums []int, start int, end int, target int) (bool, int) {
 	if start == end {
 		if nums[start] == target {
-			return start
+			return true, start
 		} else {
-			return -1
+			return false, start
 		}
 	}
 	mid := (start + end) / 2
 	if nums[mid] == target {
-		return mid
+		return true, mid
 	} else if nums[mid] > target {
 		return binarySearch(nums, start, mid, target)
 	} else {
