@@ -65,7 +65,7 @@ func NewListNodeWithLen(listNode *ListNode) *ListNodeWithLen {
 }
 
 func calculateLength(l *ListNodeWithLen) int {
-	l.len = getLength(l.listNode)
+	l.len = GetLength(l.listNode)
 	return l.len
 }
 
@@ -94,14 +94,14 @@ func mergeKLists(lists []*ListNode) *ListNode {
 
 }
 
-func getLength(l *ListNode) int {
+func GetLength(l *ListNode) int {
 	if l == nil {
 		return 0
 	}
 	if l.Next == nil {
 		return 1
 	} else {
-		return getLength(l.Next) + 1
+		return GetLength(l.Next) + 1
 	}
 }
 
